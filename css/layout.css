@@ -243,9 +243,21 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 72px;
    overflow: hidden;
 }
-
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+.resume_button a{
+   margin-top:20px;
+}
+.resume_link{
+   margin-top:20px;
+}
+#resume a, #resume a:visited  {     border: 1px solid #008000;
+   color: #008000;
+   padding: 10px 10px;
+   border-radius: 5px;
+   background-color: transparent; }
+#resume a:hover, #resume a:focus {    border: 1px solid #008000;
+   outline: 0;
+   color: #000000;
+   background-color: #008000; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -277,6 +289,59 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 9px;
 }
 #resume .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#resume .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* d. publications Section
+/* ------------------------------------------------------------------ */
+
+#publications {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#publications a, #publications a:visited  { color: #11ABB0; }
+#publications a:hover, #publications a:focus { color: #313131; }
+
+#publications h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   font-weight: bold;
+}
+#publications h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#publications h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+   font-weight: bold;
+}
+
+#publications .header-col { padding-top: 9px; }
+#publications .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#publications .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#publications .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
