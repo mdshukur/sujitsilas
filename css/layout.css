@@ -247,8 +247,8 @@ ul#nav li.current a { color: #F06000; }
    margin-top:20px;
 }
 .resume_tg {
-    text-align: center;
-    margin-top: 50px;
+   text-align: center;
+   margin-top: 50px;
 }
 .resume_link{
    margin-top:20px;
@@ -308,7 +308,6 @@ ul#nav li.current a { color: #F06000; }
 
 #publications {
    background: #fff;
-   padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
