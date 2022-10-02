@@ -246,6 +246,10 @@ ul#nav li.current a { color: #F06000; }
 .resume_button a{
    margin-top:20px;
 }
+.resume_tg {
+    text-align: center;
+    margin-top: 50px;
+}
 .resume_link{
    margin-top:20px;
 }
