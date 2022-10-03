@@ -329,6 +329,9 @@ ul#nav li.current a { color: #F06000; }
    font: 25px/30px 'opensans-bold', sans-serif;
    font-weight: bold;
 }
+#publications h3:hover {
+   color:#0000009f;
+}
 
 #publications .header-col { padding-top: 9px; }
 #publications .main-col { padding-right: 10%; }
